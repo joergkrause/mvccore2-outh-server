@@ -1,9 +1,9 @@
 AspNet.Security.OpenIdConnect.Samples
 =====================================
 
-ASP.NET Core samples demonstrating how to use the [ASP.NET OpenID Connect server](https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server) with MVC or JS apps.
+Based on the ASP.NET Core samples demonstrating how to use the [ASP.NET OpenID Connect server](https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server) with MVC or JS apps.
 
-Note: the samples hosted on this repository target ASP.NET Core 1.0 RTM ; see [AspNet.Security.OpenIdConnect.Server/samples](https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server/tree/dev/samples) for samples targeting the latest pre-release versions.
+Note: the samples hosted on this repository target ASP.NET Core 2.0, Version  2.0.2 currently 
 
 ## [MVC](./samples/Mvc)
 
@@ -24,22 +24,5 @@ Besides from APIs to request and refresh tokens, `Mvc.Server` also offers an API
 Thus, it also plays as the *resource server* of an OpenID Connect scenario.
 
 Note that, generally speaking, authorization server and resource server could also be split in two separate web applications.
-
-## [SignalR](./samples/SignalR)
-
-## [Cordova](./samples/Cordova)
-
-## Support
-
-**Need help or wanna share your thoughts?** Don't hesitate to join us on Gitter or ask your question on StackOverflow:
-
-- **Gitter: [https://gitter.im/aspnet-contrib/AspNet.Security.OpenIdConnect.Server](https://gitter.im/aspnet-contrib/AspNet.Security.OpenIdConnect.Server)**
-- **StackOverflow: [https://stackoverflow.com/questions/tagged/aspnet-contrib](https://stackoverflow.com/questions/tagged/aspnet-contrib)**
-
-## Contributors
-
-**AspNet.Security.OpenIdConnect.Samples** is actively maintained by **[Kévin Chalet](https://github.com/PinpointTownes)**. Contributions are welcome and can be submitted using pull requests.
-
-## License
 
 This project is licensed under the **Apache License**. This means that you can use, modify and distribute it freely. See [http://www.apache.org/licenses/LICENSE-2.0.html](http://www.apache.org/licenses/LICENSE-2.0.html) for more details.
