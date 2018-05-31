@@ -36,7 +36,8 @@ namespace Mvc.Client
                 LogoutPath = new PathString("/signout")
             });
 
-            app.UseOpenIdConnectAuthentication(new OpenIdConnectOptions
+            app.UseOpenIdConnectAuthentication
+        (new OpenIdConnectOptions
             {
                 RequireHttpsMetadata = false,
                 SaveTokens = true,
